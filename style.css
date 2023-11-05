@@ -14,7 +14,7 @@ body {
     height: 100vh;
 }
 
-/* div */
+/* div container */
 #card {
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@ img {
     height: 402px;
 }
 
-/* testo */
+/* text */
 .description {
     font-size: 16px;
     color: hsl(228, 12%, 48%);
@@ -83,7 +83,7 @@ h1 {
     margin-left: 20px;
 }
 
-/* bottone */
+/* buttons */
 .buttons {
     margin-top: 20px;
 }
