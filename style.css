@@ -7,38 +7,32 @@
 body {
     background-color: hsl(30, 38%, 92%);
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 /* div */
-#card {
-    margin: 50px 50px;
+#card {    
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 70vh;
-    border: 2px solid black;
     background-color: hsl(0, 0%, 100%);
-    border-radius: 10%;
-}
-
-.perfume-img {
-    max-width: 100%;
-    max-height: 100%;
-    vertical-align: middle;
-}
-
-img {
-    width: 200px;
+    border-radius: 10px;
+    max-width: 536px;
+    max-height: 804px;
+    overflow: hidden;
 }
 
 /* testo */
 .description {
-    font-size: 14px;
+    font-size: 16px;
     color: hsl(228, 12%, 48%);
     font-size: 11px;
     line-height: 18px;
-    margin-bottom: 13px;
+    padding-bottom: 20px;
 }
 
 .font-Fraunces {
@@ -46,7 +40,7 @@ img {
 }
 
 .perfume-text {
-    margin: 0px 30px;
+    padding: 0px 30px;
 }
 
 .type-product {
@@ -59,22 +53,25 @@ img {
 }
 
 h1 {
-    margin-bottom: 18px;
-    color: hsl(212, 21%, 14%)
+    margin-bottom: 16px;
+    color: hsl(212, 21%, 14%);
+    line-height: 30px;
 }
 
 #price {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: hsl(158, 36%, 37%);
+    font-size: 18px;
 }
+
 
 .prev-price {
     align-self: center;
-    font-size: 10px;
+    font-size: 12px;
     text-decoration: line-through;
     color: hsl(228, 12%, 48%);
-    weight: 100;
+    font-weight: 100;
 }
 
 /* bottone */
@@ -87,12 +84,26 @@ h1 {
     color: hsl(0, 0%, 100%);
     background-color: hsl(158, 36%, 37%);
     width: 100px;
-    border-radius: 10px;
+    border-radius: 7px;
     border: none;
     padding: 10px;
     width: 100%;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    background-color: hsl(158, 42%, 18%);
 }
 
 svg {
     margin-right: 10px;
+}
+
+/* Pie' */
+footer {
+    position: fixed;
+    bottom: 20px;
 }
