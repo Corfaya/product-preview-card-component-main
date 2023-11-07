@@ -111,13 +111,6 @@ svg {
     margin-right: 10px;
 }
 
-/* Pie' */
-footer {
-    position: fixed;
-    bottom: 20px;
-    color: hsl(212, 21%, 14%);
-}
-
 /* mediaqueries */
 @media (max-width: 375px) {
     #card {
